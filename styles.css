@@ -1,0 +1,154 @@
+.entire{
+    display: flex;
+    flex: auto;
+    height: 700px;
+    min-width: 720px;
+    background-color: aqua;
+}
+.left{
+    flex: auto;
+    min-width: 210px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.leftbox{
+    min-height: 500px;
+    max-height: 500px;
+    margin: 20px;
+    border: solid;
+    border-radius: 10px;
+}
+.maintext{
+    font-family:'Courier New', Courier, monospace;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 60px;
+
+}
+.mainpara{
+    font-size: 30px;
+    padding-top: 25px;
+    padding-left: 15px;
+    font-family:'Courier New', Courier, monospace;
+}
+.right{
+    flex: auto;
+    min-width: 210px;
+    max-width: 500px;
+}
+.body{
+    flex: auto;
+    display: flex;
+    max-width:350px ;
+    justify-content: center;
+    align-items: center;
+    max-height: 450px;
+    padding-top: 50px;
+    flex-shrink:0 ;
+
+}
+.calculator{
+    flex: auto;
+    margin: 10px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color:orange;
+}
+.screen{
+    min-height: 120px;
+    text-align: right;
+    margin:20px;
+    border-radius: 10px;
+    background-color:black;
+    color:white;
+}
+.displaydigit{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    min-height: 100px;
+    font-size: 45px;
+    padding-right: 5px;
+    font-family:'Courier New', Courier, monospace;
+    max-width: 290px;
+    overflow:hidden;
+}
+.allbuttons{
+    display: flex;
+    flex: auto;
+    margin-bottom: 10px;
+}
+button{
+    min-height: 50px;
+    min-width: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: medium;
+    cursor: pointer;
+    background-color: burlywood;
+    border: white;
+    border: solid;
+    border-color: antiquewhite;
+}
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    max-width: 200px;
+    max-height: 290px;
+    align-items: center;
+    
+}
+.func{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 290px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.clear{
+    min-width: 125px;
+}
+.funcbtn,.equal,.decimal{
+    min-width: 60px;
+}
+.logscreen{
+    min-height: 200px;
+    text-align: right;
+    margin:20px;
+    border-radius: 10px;
+    background-color:black;
+    color:white;
+    margin-top: 70px;
+    border: solid;
+    border-color: orange;
+    max-width:600px;
+    
+}
+.logdigit{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 20px;
+    min-height: 200px;
+    font-size: 45px;
+    padding-right: 5px;
+    font-family:'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+.text{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+}
